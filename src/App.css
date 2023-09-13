@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+h4{
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+
+  color: white;
+  border: 2px solid white;
+  padding: .5rem;
+  border-radius: 6px;
+}
+.del-grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del-grp span{
+
+}
+
+.form{
+  display: flex;
+  background-color: rgb(249, 250, 250);
+  height: 200px;
+  flex-direction: column;
+  position: relative;
+  padding:1rem;
+  justify-content:center;
+  border-radius: 10px;
+  
+}
+
+.logout{
+  border: none;
+  background-color: rgb(46, 46, 250);
+  color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 7px;
+}
+
+.user-info{
+  margin: 4rem 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 1rem;
+}
+
+.user-info p{
+  background-color: white;
+  color: black;
+  padding:1.5rem 1rem;
+  border-radius: 7px;
+}
+
+
+
+/* .edit{
+position: absolute;
+right: 2rem;
+bottom: 3rem;
+} */
+.input{
+
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.lists{
+   background-color: white;
+   color: black;
+  margin: .5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 90px 0 rgba(20, 20, 20, 0.37);
+  width: 100%;
+  height: 90px;
+  padding-left: .5rem;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.checked{
+  text-decoration: line-through;
+  text-decoration-color:black ;
+  font-style: italic;
+}
+input[type=checkbox]{
+  color: white;
+  background-color: red;
+}
+
+.logout-page{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  width: 80%;
+  display: flex;
+  z-index: 2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  max-width: 400px;
+}
+
+.logout-page p:last-child{
+  color: blue;
+}
+
+.crossed-lists{
+  background-color: white;
+  color: black;
+ margin: .5rem;
+ border-radius: 5px;
+ text-transform: capitalize;
+ box-shadow: 0 0 90px 0 rgba(20, 20, 20, 0.37);
+ width: 100%;
+ height: 90px;
+ padding-left: .5rem;
+ font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.checked-h4{
+  text-align: center;
+  text-shadow: 0 5px 10px blue;
+}
+
+
+.your-h4{
+  text-align: center;
+  text-shadow: 0 5px 10px blue;
+}
+
+.welcome{
+  padding:1.5rem 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(14, 14, 219, 0.952);
+  color: white;
+  width: 200px;
+  position: relative;
+  left: 1rem;
+  border-radius:2rem 0 0 0;
+}
+
+.box a{
+  color: white;
+}
+.add{
+  font-size: 30px;
+  color: rgb(68, 68, 247);
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  box-shadow: 0 0 70px 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.del{
+  position: absolute;
+  right: 2rem;
+  background-color: blue;
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.button{
+  position: absolute;
+right: 2rem;
+bottom: 3rem;
+border: none;
+background-color: transparent;
+
+}
+
+.form-h4{
+  color: black;
+  text-align: center;
+  font-size: 23px;
+}
+
+small{
+  text-align: center;
+  margin-bottom: .5rem;
+  color: red;
+
+}

@@ -1,0 +1,42 @@
+body{
+     color: white;
+}
+
+.register-form{
+position: relative;
+}
+
+.first-name{
+    max-width: 100%;
+
+}
+
+.bg{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.err{
+color: red;
+padding-left: .5rem;
+margin: 0.2rem 0;
+}
+
+.register-btn{
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    background-color: blue;
+    color: white;
+   border: none;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+ 
+border-radius: 7px;
+}
